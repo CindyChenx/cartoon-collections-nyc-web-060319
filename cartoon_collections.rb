@@ -19,7 +19,11 @@ def long_planeteer_calls(short_words)# code an argument here
     x.length > 4
 end
 
-def find_the_cheese# code an argument here
+snacks = ["crackers", "gouda", "thyme"]
+def find_the_cheese(snacks)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  snacks.find{ |snack|
+    
+  }
 end
