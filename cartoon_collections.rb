@@ -1,5 +1,8 @@
-def roll_call_dwarves# code an argument here
+dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
+  dwarves.each do |dwarf|
+    puts dwarf
 end
 
 def summon_captain_planet# code an argument here
