@@ -15,8 +15,8 @@ end
 short_words = ["puff", "go", "two"]
 def long_planeteer_calls(short_words)# code an argument here
   # Your code here
-  short_words.include do |x|
-    x.size > 4
+  short_words.any do |x|
+    x.length > 4
 end
 
 def find_the_cheese# code an argument here
